@@ -20,10 +20,12 @@ public class Main {
     }
 
     public static void faiVolare(Volo animale) {
+        System.out.println("Sto volando e sono un " + animale.toString());
         animale.volare();
     }
 
     public static void faiNuotare(Nuoto animale) {
+        System.out.println("Sto nuotando e sono un " + animale.toString());
         animale.nuotare();
     }
 }

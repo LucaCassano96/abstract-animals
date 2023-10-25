@@ -15,4 +15,9 @@ public class Delfino extends Animale implements Nuoto{
     public void nuotare() {
         System.out.println("Sto nuotando");
     }
+
+    @Override
+    public String toString() {
+        return "Delfino";
+    }
 }

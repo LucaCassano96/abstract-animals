@@ -11,4 +11,9 @@ public class Cane extends Animale{
     public void mangia() {
         System.out.println("carne");
     }
+
+    @Override
+    public String toString() {
+        return "Cane";
+    }
 }

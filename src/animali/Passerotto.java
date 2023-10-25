@@ -16,4 +16,9 @@ public class Passerotto extends Animale implements Volo{
     public void volare() {
         System.out.println("Sto volando!!");
     }
+
+    @Override
+    public String toString() {
+        return "Passerotto";
+    }
 }
